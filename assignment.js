@@ -22,20 +22,17 @@ function woodcaculator(chair,table, bed){
 var woodResult = woodcaculator(50, 80, 45);
 console.log(woodResult);
 
-// brickCaculator 
-
 // tinyFriend
-
-function tinyFriend(names){
-    var tiny = names(0);
-    for(var  i = 0; i < names.length; i++){
-        list = names[i];
-        if(list.length < tiny.length){
-            tiny = list;
-        }
-
+function tinyFriend(numbers){
+    var tiny =numbers[0];
+    for(var i=0; i<numbers.length; i++){
+    var fList = numbers[i];
+    if(fList.length < tiny.length){
+    tiny = fList;
+    }
     }
     return tiny;
-}
-var result = tinyFriend[("mahid", "hasan", "kamal", "ad")];
-console.log(result);
+    }
+    var friendsList = ['Hellel', 'bashir', 'ab', 'monu', 'jamal'];
+    console.log(tinyFriend(friendsList));
+
