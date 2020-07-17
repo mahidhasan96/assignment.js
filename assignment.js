@@ -22,6 +22,8 @@ function woodcaculator(chair,table, bed){
 var woodResult = woodcaculator(50, 80, 45);
 console.log(woodResult);
 
+
+
 // tinyFriend
 function tinyFriend(numbers){
     var tiny =numbers[0];
